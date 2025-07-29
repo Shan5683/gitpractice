@@ -31,3 +31,15 @@ resource "azurerm_resource_group" "indore4" {
   name     = "indore4"
   location = "West Europe"
 }
+resource "azurerm_resource_group" "example1" {
+  name     = "shantanurg"
+  location = "West Europe"
+}
+resource "azurerm_resource_group" "example2" {
+  name     = "alokrg"
+  location = "West Europe"
+}
+resource "azurerm_resource_group" "example3" {
+  name     = "abhishekrg"
+  location = "West Europe"
+}
